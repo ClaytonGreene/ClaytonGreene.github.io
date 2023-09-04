@@ -1,0 +1,37 @@
+#map{
+        height: 90%;
+		width:100%;
+    }
+	
+.container {
+  height: 25px;
+  position: relative;
+  }
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.DahButtonBox{
+display: flex;
+  align-items: center;
+  justify-content: center; 
+  text-align: center; 
+}
+
+
+body,html{
+    font-family: 'Droid Serif', serif;
+    font-size: 14px;
+    color: #2f2f2f;
+    background-color: #f9f7f1; 
+	height: 100%;
+        margin: 0;
+        padding: 0;
+}
+
+
